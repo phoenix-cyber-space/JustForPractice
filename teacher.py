@@ -19,3 +19,4 @@ else:
             print("\nTotal no of skills {}".format(self.count_skills()))
         def teaching(self):
             print(f"Myself teaching {self.skills[0]} as {self.name}")
+            print("Hey Hey Hey")
