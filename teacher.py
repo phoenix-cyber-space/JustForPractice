@@ -17,3 +17,5 @@ else:
             for skill in self.skills:
                 print(skill,end=" ")
             print("\nTotal no of skills {}".format(self.count_skills()))
+        def teaching(self):
+            print(f"Myself teaching {self.skills[0]} as {self.name}")
